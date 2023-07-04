@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-image: url('img.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .btn {
+    color: black;
+    background-color: brown;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 12px;
+    position: relative;
+    left:230px;
+  }
+  .container
+  {
+    background-color: cadetblue;
+    width:500px;
+  }
+  .currency {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .currency select {
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    background-color: blueviolet;
+    position: relative;
+    left:60px;
+  }
+  
+  .currency input {
+    border: 0;
+    background: white;
+    font-size: 30px;
+    text-align: right;
+    width:200px;
+    position: relative;
+    right:100px;
+  }
+  h2
+  {
+    text-align: center;
+  }
+  .swap-rate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rate
+  {
+    position: relative;
+    right:15px;
+  }
